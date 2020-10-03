@@ -40,6 +40,12 @@ const questions = [
 
     {
         type:"input",
+        name: "Questions",
+        message: "Are there anything you want to let the user know before running this application?"
+    },
+
+    {
+        type:"input",
         name: "email",
         message: "What's your e-mail address"
     },
@@ -90,11 +96,16 @@ function generateReadMe(answers){
     ${answers.usage}
        
     ## License
+
     ${answers.license}    
     
     ## Tests
     
     ## Questions
+
+    ${answers.questions}  
+
+    -Contact information:
     https://github.com/${answers.github}
     ${answers.email}`    
 }
