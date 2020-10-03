@@ -1,9 +1,9 @@
     
-    # Weather App
+# Weather APP
        
-    ## Table of Contents
+## Table of Contents
     
-    ###Description
+Description
 
 Installation
 
@@ -17,28 +17,30 @@ Questions
 
 
     
-    ## Description
+## Description
     
-    This is an application to help user finding the most current weather update.
+    Weather APPfor user to obtain quick weather updates.
     
-    ## Installation
+## Installation
     
-    No additional installation is required. Simply run this on the web browser.
+    special install
     
-    ## Usage
+## Usage
 
-    This app will provide the most up to date information of weather warning.
+    weijf
        
-    ## License
+## License
 
     [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/),[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html),[![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)]    
     
-    ## Tests
+## Tests
     
-    ## Questions
+## Questions
 
     undefined  
 
     -Contact information:
-    https://github.com/sirit
-    shun@pin
+
+### https://github.com/jiefj
+
+    jeifj

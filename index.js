@@ -76,36 +76,38 @@ function generateReadMe(answers){
 
     answers.tableOfContents.forEach (lolo => listOfOptions += lolo+"\r\n\r\n");
         
-    return `    
-    # ${answers.title}
+return `    
+# ${answers.title}
        
-    ## Table of Contents
+## Table of Contents
     
-    ###${listOfOptions}
+${listOfOptions}
     
-    ## Description
+## Description
     
     ${answers.description}
     
-    ## Installation
+## Installation
     
     ${answers.installation}
     
-    ## Usage
+## Usage
 
     ${answers.usage}
        
-    ## License
+## License
 
     ${answers.license}    
     
-    ## Tests
+## Tests
     
-    ## Questions
+## Questions
 
     ${answers.questions}  
 
     -Contact information:
-    https://github.com/${answers.github}
+
+### https://github.com/${answers.github}
+
     ${answers.email}`    
 }
