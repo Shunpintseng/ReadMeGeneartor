@@ -7,20 +7,49 @@ const questions = [
         name: "title",
         message: "what is your readme title?"
     },
-    
+       
+    {
+        type:"checkbox",
+        name: "tableOfContents",
+        choices: ["Description","Installation","Usage","License","Tests","Questions"]
+    },
+
     {
         type:"input",
         name: "description",
         message: "Please provide a short description of your readme?"
     },
+
+    {
+        type:"input",
+        name: "installation",
+        message: "Please provide installation instruction?"
+    },
+    
+    {
+        type:"input",
+        name: "usage",
+        message: "What is the usage of this program?"
+    },
     
     {
         type:"checkbox",
-        name: "tableOfContents",
-        choices: ["Installation","Usage","License","Contributing","Tests","Questions"]
+        name: "license",
+        choices: ["[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)","[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)","[![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)]"]
+    },
+
+    {
+        type:"input",
+        name: "email",
+        message: "What's your e-mail address"
+    },
+
+    {
+        type:"input",
+        name: "github",
+        message: "What's your github username"
     },
     
-
 ];
 
 inquirer.prompt(questions)
@@ -36,20 +65,17 @@ const userReadMe = generateReadMe(answers)
 })
 
 function generateReadMe(answers){
+   
     let listOfOptions = "";
 
     answers.tableOfContents.forEach (lolo => listOfOptions += lolo+"\r\n\r\n");
-    
-
-    
+        
     return `    
     # ${answers.title}
-
-    //Name of project
-    
+       
     ## Table of Contents
     
-    ${listOfOptions}
+    ###${listOfOptions}
     
     ## Description
     
@@ -57,70 +83,18 @@ function generateReadMe(answers){
     
     ## Installation
     
-    //user Input
+    ${answers.installation}
     
     ## Usage
-    
-    //user input
-    
+
+    ${answers.usage}
+       
     ## License
-    
-    //add license options for application
-    
-    ## Contributing
-    Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-    
-    Please make sure to update tests as appropriate.
+    ${answers.license}    
     
     ## Tests
     
-    //user input
-    
     ## Questions
-    
-    //user input git hub profile 
-    //user input email address`
+    https://github.com/${answers.github}
+    ${answers.email}`    
 }
-
-
-
-
-
-
-
-// // // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // // function to initialize program
-// function init() {
-
-// }
-
-
-
-
-
-
-// // function call to initialize program
-// init();
-
-
-//npm init
-
-//install my dependencies 
-
-// need - inquirer, fs
-
-// create an array of questions - through inquire propmt
-
-//gerenrate a template file. write a readme in a markdown file as a template
-
-// function that will generate my readme template
-
-// use inquirer to propmt users with questions
-
-// use answers that come back from inquirer - pass into my generate readme function
-
-//write file using tempate generated from readme function
-

@@ -1,21 +1,39 @@
-# Read Me Generator
+    
+    # weather app
+       
+    ## Table of Contents
+    
+    Description
 
-## Description
-This read me generator is created with javascript and using node to run in the terminal setting and will allow user to generate a readme file from a list of questions that will be filled in the read me file. Folowing is the git hub link for the readme code. 
-https://github.com/Shunpintseng/ReadMeGeneartor
+Installation
 
-## Installation
+Usage
 
-This read me generator reaquires the following:
--node
--inquirer
--fs
+License
 
-## Usage
+Tests
 
-This application will run in node terminal. First stop is to enter "node index.js" in terminal commend line. A serious of questions will be prompted to collect user input and generate the read me document.
+Questions
 
-## Questions
-This application is created by Shunpin Tseng 
-shunpin@gmail.com
-https://github.com/Shunpintseng
+
+    
+    ## Description
+    
+    this is a weather app
+    
+    ## Installation
+    
+    simply run the app on your browser
+    
+    ## Usage
+
+    for checking the weather
+       
+    ## License
+    [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/),[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html),[![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)]    
+    
+    ## Tests
+    
+    ## Questions
+    https://github.com/shunpintseng
+    shunpin@gmail.com
