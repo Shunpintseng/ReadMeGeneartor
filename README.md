@@ -1,50 +1,21 @@
-    
-    # xxxx
+# Read Me Generator
 
-    //Name of project
-    
-    ## Table of Contents
-    
-    Installation
+## Description
+This read me generator is created with javascript and using node to run in the terminal setting and will allow user to generate a readme file from a list of questions that will be filled in the read me file. Folowing is the git hub link for the readme code. 
+https://github.com/Shunpintseng/ReadMeGeneartor
 
-Usage
+## Installation
 
-License
+This read me generator reaquires the following:
+-node
+-inquirer
+-fs
 
-Contributing
+## Usage
 
-Tests
+This application will run in node terminal. First stop is to enter "node index.js" in terminal commend line. A serious of questions will be prompted to collect user input and generate the read me document.
 
-Questions
-
-
-    
-    ## Description
-    
-    teryeuhreuhee
-    
-    ## Installation
-    
-    //user Input
-    
-    ## Usage
-    
-    //user input
-    
-    ## License
-    
-    //add license options for application
-    
-    ## Contributing
-    Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-    
-    Please make sure to update tests as appropriate.
-    
-    ## Tests
-    
-    //user input
-    
-    ## Questions
-    
-    //user input git hub profile 
-    //user input email address
+## Questions
+This application is created by Shunpin Tseng 
+shunpin@gmail.com
+https://github.com/Shunpintseng
