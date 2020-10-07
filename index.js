@@ -62,10 +62,7 @@ inquirer.prompt(questions)
 .then(function(answers){
 const userReadMe = generateReadMe(answers)
     fs.writeFile("readme.md",userReadMe, function(err){
-        if(err){
-            return console.log(err)
-        }
-        console.log("done")
+        
     })
 
 })
